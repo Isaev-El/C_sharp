@@ -11,7 +11,7 @@ namespace ConsoleApp1.Home1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("dsfvdfvsdvasdvvdsvsdvSDVsdvSDVsdvSDVadfvadvafvvsd");
+            Console.WriteLine("sds");
             Console.ReadLine();
         }
     }
