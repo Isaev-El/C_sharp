@@ -8,11 +8,160 @@ namespace ConsoleApp1.Lesson1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            var rand = new Random();
+
+            //1 задача
+            Console.WriteLine("1) Введите три числа");
+            taskFirst();
+
+            //2 задача
+            Console.WriteLine("2) Три числа по столбику");
+            taskSecond();
+
+            //3 задача
+            Console.WriteLine("3) Введите сантимеры");
+            Console.WriteLine("В метрах - " + taskThree());
+
+            //4 задача
+            Console.WriteLine("3)");
+            taskFour();
+
+            //5 задача
+            Console.WriteLine("4)");
+            taskFive();
+
+            //6 задача
+            Console.WriteLine("6)");
+            taskSix();
+
+            //7 задача
+            Console.WriteLine("7)");
+            taskSeven();
+
+            //8 задача
+            Console.WriteLine("8)");
+            taskEight();
+
+            //9 задача
+            Console.WriteLine("9)");
+            taskNine();
+
+            //10 задача
             taskTen();
+
+
+
+            //20 задача свап с помощью значении
+            int a = 1;
+            int b = 2;
+            (a, b) = taskTwenty(a, b);
+            Console.WriteLine("20) " + a + " " + b);
+
+
+            //21 задача свап с помощью ссылок
+            a = 1;
+            b = 2;
+            taskTwentyOne(ref a, ref b);
+            Console.WriteLine("21) " + a + " " + b);
+
+            //22 задача 
+            Console.Write("22)\nВведите значение x: ");
+            int x = int.Parse(Console.ReadLine());
+
+            Console.Write("Введите значение y: ");
+            int y = int.Parse(Console.ReadLine());
+
+            double result = taskTwentyTwo(x, y);
+
+            Console.WriteLine("Результат: " + result);
+
+            //23 задача
+            Console.Write("23)\nВведите часы (0-23): ");
+            int hours = int.Parse(Console.ReadLine());
+
+            Console.Write("Введите минуты (0-59): ");
+            int minutes = int.Parse(Console.ReadLine());
+
+            Console.Write("Введите секунды (0-59): ");
+            int seconds = int.Parse(Console.ReadLine());
+
+            result = taskTwentyThree(hours, minutes, seconds);
+
+            if (result != -1)
+            {
+                Console.WriteLine("Количество секунд с начала дня: " + result);
+            }
+            else
+            {
+                Console.WriteLine("Ошибка: некорректные данные.");
+            }
+
+            //24 задача
+            Console.Write("24)\nВведите месяц (1-12): ");
+            int month = int.Parse(Console.ReadLine());
+
+            Console.Write("Введите день (1-31): ");
+            int day = int.Parse(Console.ReadLine());
+
+            result = taskTwentyFour(month, day);
+
+            if (result != -1)
+            {
+                Console.WriteLine("Количество дней с начала года: " + result);
+            }
+            else
+            {
+                Console.WriteLine("Ошибка: некорректные данные.");
+            }
+
+            //25 задача
+            Console.Write("25)\nВведите месяц (1-12): ");
+            month = int.Parse(Console.ReadLine());
+
+            Console.Write("Введите день (1-31): ");
+            day = int.Parse(Console.ReadLine());
+
+            result = taskTwentyFive(month, day);
+
+            if (result != -1)
+            {
+                Console.WriteLine("Количество дней с начала года: " + result);
+            }
+            else
+            {
+                Console.WriteLine("Ошибка: некорректные данные.");
+            }
+
+            //26 задача
+            Console.WriteLine("29) три аргумента - 5, (8,2), (7, 1, 10)");
+            Console.WriteLine("Наименьшее число: " + taskTwentySix()); // Используем значения по умолчанию
+            Console.WriteLine("Наименьшее число: " + taskTwentySix(5)); // Один аргумент
+            Console.WriteLine("Наименьшее число: " + taskTwentySix(8, 2)); // Два аргумента
+            Console.WriteLine("Наименьшее число: " + taskTwentySix(7, 1, 10));
+
+            //27 задача
+            a = rand.Next(1, 100);
+            Console.WriteLine("27) Четное ли число " + a + " = " + taskTwentySeven(a));
+
+            //28 задача
+            a = 30;
+            b = 14;
+            int c = 20;
+            Console.WriteLine("28) Минимальное значение из " + a + b + c + " -> " + taskTwentyEight(a, b, c));
+
+            //29 задача
+            Console.WriteLine("29) ");
+            taskTwentyNine();
+
+            //30 задача
+            Console.WriteLine("30) " + taskThirty(10, 3));
+
+            //31 задача
+            Console.WriteLine("31) " + taskThirtyOne(10, 3));
+
             Console.ReadLine();
-            
         }
         static (int, int) taskTwenty(int a, int b)
         {
