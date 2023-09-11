@@ -10,7 +10,7 @@ namespace ConsoleApp1.Home1
     {
         static void Main()
         {
-            printSumOfNumbers();
+           printFIO();
         }
         
         static void printFIO()
@@ -45,10 +45,7 @@ namespace ConsoleApp1.Home1
                 else
                 {
                     count = false;
-                    Console.WriteLine("Данные успешно введены!");
-                    Console.WriteLine("Имя: " + name);
-                    Console.WriteLine("Фамилия: " + surname);
-                    Console.WriteLine("Отчество: " + lastname);
+                    Console.WriteLine("Приветствую тебя!"+ name+" "+surname+" "+lastname);
                     Console.ReadLine();
                 }
             }
