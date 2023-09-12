@@ -45,7 +45,7 @@ namespace ConsoleApp1.Home1
                 else
                 {
                     count = false;
-                    Console.WriteLine("Приветствую тебя!"+ name+" "+surname+" "+lastname);
+                    Console.WriteLine("Приветствую тебя - "+ name+" "+surname+" "+lastname);
                     Console.ReadLine();
                 }
             }
