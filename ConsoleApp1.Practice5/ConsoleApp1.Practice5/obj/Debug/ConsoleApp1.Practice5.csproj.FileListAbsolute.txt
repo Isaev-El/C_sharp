@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\ConsoleApp1.Practice5\ConsoleApp1.Practice5\bin\Debug\ConsoleApp1.Practice5.exe.config
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\ConsoleApp1.Practice5\ConsoleApp1.Practice5\bin\Debug\ConsoleApp1.Practice5.exe
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\ConsoleApp1.Practice5\ConsoleApp1.Practice5\bin\Debug\ConsoleApp1.Practice5.pdb
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\ConsoleApp1.Practice5\ConsoleApp1.Practice5\obj\Debug\ConsoleApp1.Practice5.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\ConsoleApp1.Practice5\ConsoleApp1.Practice5\obj\Debug\ConsoleApp1.Practice5.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\ConsoleApp1.Practice5\ConsoleApp1.Practice5\obj\Debug\ConsoleApp1.Practice5.exe
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\ConsoleApp1.Practice5\ConsoleApp1.Practice5\obj\Debug\ConsoleApp1.Practice5.pdb
