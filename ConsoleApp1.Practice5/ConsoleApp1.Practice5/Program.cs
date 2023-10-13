@@ -6,51 +6,54 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Practice5
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             try
             {
-                CallMethodThatThrowsException();
+                Worker.DoWork();
             }
-
             catch (CustomException ex)
             {
-                Console.WriteLine("Исключение перехвачено в методе Main:");
+                Console.WriteLine("Исключение было обработано в методе Main:");
                 Console.WriteLine(ex.Message);
             }
         }
-        static void CallMethodThatThrowsException()
-        {
-            Console.WriteLine("Вызывающий метод: начало выполнения");
+    }
 
+    public class Worker
+    {
+        public static void DoWork()
+        {
+            Console.WriteLine("Метод DoWork: начало выполнения");
             try
             {
-                // Вызываем метод, который сгенерирует исключение
-                ThrowCustomException();
+                Helper.PerformTask();
             }
             catch (CustomException ex)
             {
-                Console.WriteLine("Исключение перехвачено в вызывающем методе:");
+                Console.WriteLine("Исключение было обработано в методе DoWork:");
                 Console.WriteLine(ex.Message);
                 throw; // Поднимаем исключение выше
             }
-
-            Console.WriteLine("Вызывающий метод: конец выполнения");
-        }
-
-        static void ThrowCustomException()
-        {
-            Console.WriteLine("Метод, который генерирует исключение: начало выполнения");
-            throw new CustomException("Произошла пользовательская ошибка");
+            Console.WriteLine("Метод DoWork: конец выполнения");
         }
     }
+
+    public class Helper
+    {
+        public static void PerformTask()
+        {
+            Console.WriteLine("Метод PerformTask: начало выполнения");
+            throw new CustomException("Произошла пользовательская ошибка в PerformTask");
+        }
+    }
+
     public class CustomException : Exception
     {
         public CustomException(string message) : base(message)
         {
-
         }
     }
 }
