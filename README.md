@@ -6,3 +6,5 @@
       Метод CallMethodThatThrowsException вызывает ThrowCustomException и перехватывает это исключение, а затем "поднимает" его выше с помощью throw. 
       В методе Main, мы перехватываем и обрабатываем это исключение.
 }
+
+Папка Library.Polytech хранит в себе 6 домашку.
