@@ -1,0 +1,14 @@
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Bankomat\bin\Debug\ConsoleApp.Bankomat.exe.config
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Bankomat\bin\Debug\ConsoleApp.Bankomat.exe
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Bankomat\bin\Debug\ConsoleApp.Bankomat.pdb
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Bankomat\obj\Debug\ConsoleApp.Bankomat.csproj.AssemblyReference.cache
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Bankomat\obj\Debug\ConsoleApp.Bankomat.csproj.CoreCompileInputs.cache
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Bankomat\obj\Debug\ConsoleApp.Bankomat.exe
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Bankomat\obj\Debug\ConsoleApp.Bankomat.pdb
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Домашняя работа\Library.Polytech.Home.6\ConsoleApp.Bankomat\bin\Debug\ConsoleApp.Bankomat.exe.config
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Домашняя работа\Library.Polytech.Home.6\ConsoleApp.Bankomat\bin\Debug\ConsoleApp.Bankomat.exe
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Домашняя работа\Library.Polytech.Home.6\ConsoleApp.Bankomat\bin\Debug\ConsoleApp.Bankomat.pdb
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Домашняя работа\Library.Polytech.Home.6\ConsoleApp.Bankomat\obj\Debug\ConsoleApp.Bankomat.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Домашняя работа\Library.Polytech.Home.6\ConsoleApp.Bankomat\obj\Debug\ConsoleApp.Bankomat.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Домашняя работа\Library.Polytech.Home.6\ConsoleApp.Bankomat\obj\Debug\ConsoleApp.Bankomat.exe
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Домашняя работа\Library.Polytech.Home.6\ConsoleApp.Bankomat\obj\Debug\ConsoleApp.Bankomat.pdb
