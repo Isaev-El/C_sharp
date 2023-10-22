@@ -1,0 +1,6 @@
+C:\Users\Оксана\source\repos\Library.Polytech\Library.Polytech\bin\Debug\Library.Polytech.dll
+C:\Users\Оксана\source\repos\Library.Polytech\Library.Polytech\bin\Debug\Library.Polytech.pdb
+C:\Users\Оксана\source\repos\Library.Polytech\Library.Polytech\obj\Debug\Library.Polytech.csproj.AssemblyReference.cache
+C:\Users\Оксана\source\repos\Library.Polytech\Library.Polytech\obj\Debug\Library.Polytech.csproj.CoreCompileInputs.cache
+C:\Users\Оксана\source\repos\Library.Polytech\Library.Polytech\obj\Debug\Library.Polytech.dll
+C:\Users\Оксана\source\repos\Library.Polytech\Library.Polytech\obj\Debug\Library.Polytech.pdb

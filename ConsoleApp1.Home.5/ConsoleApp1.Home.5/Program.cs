@@ -130,6 +130,9 @@ namespace ConsoleApp1.Home._5
         }
     }
 
+    /*
+     Задача 3
+     */
     public class CustomException : Exception
     {
         public CustomException(string message) : base(message)

@@ -1,0 +1,10 @@
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Polytech\bin\Debug\ConsoleApp.Polytech.exe.config
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Polytech\bin\Debug\ConsoleApp.Polytech.exe
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Polytech\bin\Debug\ConsoleApp.Polytech.pdb
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Polytech\bin\Debug\Library.Polytech.dll
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Polytech\bin\Debug\Library.Polytech.pdb
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Polytech\obj\Debug\ConsoleApp.Polytech.csproj.AssemblyReference.cache
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Polytech\obj\Debug\ConsoleApp.Polytech.csproj.CoreCompileInputs.cache
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Polytech\obj\Debug\ConsoleApp.Polytech.csproj.CopyComplete
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Polytech\obj\Debug\ConsoleApp.Polytech.exe
+C:\Users\Оксана\source\repos\Library.Polytech\ConsoleApp.Polytech\obj\Debug\ConsoleApp.Polytech.pdb
