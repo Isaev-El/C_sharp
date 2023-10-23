@@ -8,7 +8,7 @@ namespace MyLibrary
 {
     public class ArraySum
     {
-        private int[] data;
+        public int[] data;
 
         public ArraySum(params int[] values)
         {
@@ -25,6 +25,16 @@ namespace MyLibrary
                     break; // Выходим из цикла после добавления
                 }
             }
+        }
+
+        public int SumNumber()
+        {
+            int sum = 0;
+            for (int index = 0; index < data.Length; index++)
+            {
+                sum += data[index];
+            }
+            return sum;
         }
 
         public static bool operator <(ArraySum array1, ArraySum array2)

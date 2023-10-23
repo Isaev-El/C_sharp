@@ -32,9 +32,11 @@ namespace Home.Work7.Day7
             team2[3] = new Tank("T-34-85");
             team2[4] = new Tank("IS-2");
 
-                
-            int team1Wins = 0;
-            int team2Wins = 0;
+            int[] teamScore1 = new int[5];
+            int[] teamScore2 = new int[5];
+            
+            ArraySum array1 = new ArraySum(teamScore1);
+            ArraySum array2 = new ArraySum(teamScore2);
 
             // Проведение 5 боев
             for (int battle = 0; battle <= 4;battle++)
@@ -51,12 +53,12 @@ namespace Home.Work7.Day7
 
                 if (team1[battle]*team2[battle])
                 {
-                    team1Wins++;
+                    array1.AddNumber(1);
                     Console.WriteLine(team1[battle].GetTankName()+" WON!");
                 }
                 else
                 {
-                    team2Wins++;
+                    array2.AddNumber(1);
                     Console.WriteLine(team2[battle].GetTankName() + " WON!");
                 }
 
@@ -65,20 +67,27 @@ namespace Home.Work7.Day7
             }
             
             // Определение победившей команды
-            if (team1Wins > team2Wins)
+            if (array1 > array2)
             {
-                Console.WriteLine($"Team 1 wins the battle! Score:{team1Wins}-{team2Wins}");
+                Console.WriteLine($"Team 1 wins the battle! Score:{array1.SumNumber()}-{array2.SumNumber()}");
             }
-            else if (team2Wins > team1Wins)
+            else if (array2 > array1)
             {
-                Console.WriteLine($"Team 2 wins the battle! Score:{team2Wins}-{team1Wins}");
+                Console.WriteLine($"Team 2 wins the battle! Score:{array1.SumNumber()}-{array2.SumNumber()}");
             }
             else
             {
                 Console.WriteLine("It's a draw! No clear winner.");
             }
 
+            for (int i = 0; i < array1.data.Length; i++)
+            {
+                Console.WriteLine("Element " + i + ": " + array1.data[i]);
+            }
+
             Console.ReadLine();
+
+
         }
     }
 }
