@@ -6,55 +6,44 @@ using System.Threading.Tasks;
 
 namespace Practice.Work8
 {
-    public class RangeOfArray
+    class RangeOfArray
     {
-        public int[] arr;
-        public int size;
-
-        Random rand= new Random();
-
-        public RangeOfArray(int size)
+        int[] array;
+        int upperOrig;
+        int lowerOrig;
+        public RangeOfArray(int lower, int upper)
         {
-            this.size = size;
-            arr = new int[size];
-            for (int i = 0; i < arr.Length; i++)
-            {
-                arr[i] = rand.Next(10,15); 
-            }
+            upperOrig = upper;
+            lowerOrig = lower;
+            array = new int[upper - lower + 1];
         }
 
         public int this[int index]
         {
-            get {
-                try
-                {
-                    return arr[index - 1];
-
-                }
-                catch (Exception)
-                {
-
-                    throw new IndexOutOfRangeException("Будь в границе массива!");
-                }
-            }
-            set {
-                arr[index] = value;
-            }
-        }
-
-        public override string ToString()
-        {
-            string result = "";
-            for (int i = 0; i < arr.Length; i++)
+            get
             {
-                result += arr[i];
-                result += ' ';
+                if (index >= lowerOrig && index <= upperOrig)
+                {
+                    return array[index - lowerOrig];
+                }
+                else
+                {
+                    throw new IndexOutOfRangeException("Index is out of range.");
+                }
             }
-
-            return result;
+            set
+            {
+                if (index >= lowerOrig && index <= upperOrig)
+                {
+                    array[index - lowerOrig] = value;
+                }
+                else
+                {
+                    throw new IndexOutOfRangeException("Index is out of range.");
+                }
+            }
         }
     }
-
     public class Product
     {
         public int category { get; set; }
