@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\Practice.Work8\Practice.Work8\bin\Debug\Practice.Work8.exe.config
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\Practice.Work8\Practice.Work8\bin\Debug\Practice.Work8.exe
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\Practice.Work8\Practice.Work8\bin\Debug\Practice.Work8.pdb
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\Practice.Work8\Practice.Work8\obj\Debug\Practice.Work8.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\Practice.Work8\Practice.Work8\obj\Debug\Practice.Work8.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\Practice.Work8\Practice.Work8\obj\Debug\Practice.Work8.exe
+C:\Users\Admin\Desktop\SU\Осенний семестр 2023\C#\Практическая работа\Practice.Work8\Practice.Work8\obj\Debug\Practice.Work8.pdb
