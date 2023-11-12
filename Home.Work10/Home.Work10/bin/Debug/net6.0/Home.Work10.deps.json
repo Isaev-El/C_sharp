@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Home.Work10/1.0.0": {
+        "dependencies": {
+          "LibraryPerson": "1.0.0",
+          "LibraryStudent": "1.0.0",
+          "LibraryStudentWithAdvisor": "1.0.0",
+          "LibraryTeacher": "1.0.0"
+        },
+        "runtime": {
+          "Home.Work10.dll": {}
+        }
+      },
+      "LibraryPerson/1.0.0": {
+        "runtime": {
+          "LibraryPerson.dll": {}
+        }
+      },
+      "LibraryStudent/1.0.0": {
+        "dependencies": {
+          "LibraryPerson": "1.0.0"
+        },
+        "runtime": {
+          "LibraryStudent.dll": {}
+        }
+      },
+      "LibraryStudentWithAdvisor/1.0.0": {
+        "dependencies": {
+          "LibraryStudent": "1.0.0",
+          "LibraryTeacher": "1.0.0"
+        },
+        "runtime": {
+          "LibraryStudentWithAdvisor.dll": {}
+        }
+      },
+      "LibraryTeacher/1.0.0": {
+        "dependencies": {
+          "LibraryPerson": "1.0.0",
+          "LibraryStudent": "1.0.0"
+        },
+        "runtime": {
+          "LibraryTeacher.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Home.Work10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibraryPerson/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibraryStudent/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibraryStudentWithAdvisor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibraryTeacher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -15,46 +15,30 @@ namespace Home.Work8
     {
         public int[] arr;
         public int size;
-        public int index;
-        public int value;
-        public Index(int size, int index, int value)
+
+        public Index(int size)
         {
             this.size = size;
             arr = new int[size];
-            this.index = index;
-            this.value = value;
-            IndexMethod(index, value);
+
         }
 
         public int this[int index]
         {
             set
             {
-                arr[index] = value;
+                if (index < arr.Length)
+                    arr[index] = value * value;
+                else
+                    throw new CustomException("Вы вышли за границы массива!",$"Введите число меньше чем {arr.Length}");
             }
 
             get
             {
-                return arr[index];
-            }
-        }
-
-        public void IndexMethod(int index, int value)
-        {
-            if (index < arr.Length)
-            {
-                for (int i = index; i < arr.Length; i++)
-                {
-                    if (index < arr.Length)
-
-                        arr[i] = value * value;
-
-                }
-            }
-            else
-            {
-                throw new CustomException("Значение Index не может быть больше границ массива",
-                    "Введите значение Index<arr.Length");
+                if (index < arr.Length)
+                    return arr[index];
+                else
+                    throw new CustomException("Вы вышли за границы массива!", $"Введите число меньше чем {arr.Length}");
             }
         }
 
