@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Practice.Work10.Interfaces
 {
-    internal class IPart
+    interface IPart
     {
+        void Build();
     }
 }

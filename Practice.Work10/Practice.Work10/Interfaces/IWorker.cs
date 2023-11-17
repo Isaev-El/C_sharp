@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Practice.Work10.Interfaces
 {
-    internal class IWorker
+    interface IWorker
     {
+        void RunWorker(IPart part);
     }
 }
