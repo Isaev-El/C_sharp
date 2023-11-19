@@ -15,12 +15,11 @@
             double powerResult = advancedCalculator.Power(2, 3);
             advancedCalculator.DisplayResult(powerResult);
 
-            double squareRootResult = advancedCalculator.SquareRoot(9);
-            advancedCalculator.DisplayResult(squareRootResult);
+            advancedCalculator.LastResult = advancedCalculator.SquareRoot(9);
 
             // Пример использования IStorable
-            advancedCalculator.SaveToFile("calculator_state.txt");
-            advancedCalculator.LoadFromFile("calculator_state.txt");
+            advancedCalculator.SaveToFile("C:\\Users\\Admin\\Desktop\\SU\\Осенний семестр 2023\\C#\\Домашняя работа\\Home.WorkWithInterfaces10\\Home.WorkWithInterfaces10\\calculator_state.txt");
+            advancedCalculator.LoadFromFile("C:\\Users\\Admin\\Desktop\\SU\\Осенний семестр 2023\\C#\\Домашняя работа\\Home.WorkWithInterfaces10\\Home.WorkWithInterfaces10\\calculator_state.txt");
         }
     }
 }

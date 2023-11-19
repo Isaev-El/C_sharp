@@ -20,28 +20,26 @@ namespace Home.WorkWithInterfaces10
             currentState = new CalculatorState();
         }
 
-        public double LastResult
-        {
-            get { return currentState.LastResult; }
-            set { currentState.LastResult = value; }
-        }
+        public double LastResult { get; set; }
 
         public void SaveToFile(string fileName)
         {
             try
             {
-                // Используем StreamWriter для записи значения LastResult в файл
-                using (StreamWriter writer = new StreamWriter(fileName))
-                {
-                    writer.WriteLine(LastResult);
-                    writer.Flush(); // Фиксация данных в файле
-                }
-
-                Console.WriteLine($"Saved to file: {fileName}");
+                //Pass the filepath and filename to the StreamWriter Constructor
+                StreamWriter writer = new StreamWriter(fileName);
+                //Write a line of text
+                writer.WriteLine(LastResult.ToString());
+                //Close the file
+                writer.Close();
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                Console.WriteLine($"Error saving to file: {ex.Message}");
+                Console.WriteLine("Exception: " + e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Executing finally block.");
             }
         }
 
